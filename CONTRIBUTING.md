@@ -42,15 +42,15 @@ If you’d like to use the repository from source, you can either install from g
 To install via git:
 
 ```sh
-$ npm install git+ssh://git@github.com:stainless-sdks/vibecoding-typescript.git
+$ npm install git+ssh://git@github.com:evolv3ai/vibecoding-sdk.git
 ```
 
 Alternatively, to link a local copy of the repo:
 
 ```sh
 # Clone
-$ git clone https://www.github.com/stainless-sdks/vibecoding-typescript
-$ cd vibecoding-typescript
+$ git clone https://www.github.com/evolv3ai/vibecoding-sdk
+$ cd vibecoding-sdk
 
 # With yarn
 $ yarn link
