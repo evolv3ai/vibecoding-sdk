@@ -26,13 +26,9 @@ export { endpoints } from './tools';
 export const server = new McpServer(
   {
     name: 'vibecoding_api',
-    version: '0.0.1-alpha.1',
+    version: '0.1.0-alpha.1',
   },
-  {
-    capabilities: {
-      tools: {},
-    },
-  },
+  { capabilities: { tools: {} } },
 );
 
 /**
