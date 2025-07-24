@@ -60,6 +60,9 @@ export const tool: Tool = {
     },
     required: [],
   },
+  annotations: {
+    readOnlyHint: true,
+  },
 };
 
 export const handler = async (client: Vibecoding, args: Record<string, unknown> | undefined) => {
