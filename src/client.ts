@@ -746,7 +746,9 @@ export class Vibecoding {
 
   projects: API.Projects = new API.Projects(this);
 }
+
 Vibecoding.Projects = Projects;
+
 export declare namespace Vibecoding {
   export type RequestOptions = Opts.RequestOptions;
 
