@@ -17,7 +17,7 @@ export const parseAuthHeaders = (req: IncomingMessage): Partial<ClientOptions> =
   }
 
   const apiKey =
-    req.headers['x-vibecoding-api-key'] instanceof Array ?
+    Array.isArray(req.headers['x-vibecoding-api-key']) ?
       req.headers['x-vibecoding-api-key'][0]
     : req.headers['x-vibecoding-api-key'];
   return { apiKey };
