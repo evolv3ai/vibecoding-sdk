@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { type ClientOptions } from 'vibecoding/client';
+import { ClientOptions } from 'vibecoding';
 
 export type WorkerInput = {
   opts: ClientOptions;
